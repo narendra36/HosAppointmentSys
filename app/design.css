@@ -1,0 +1,195 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Dosis-Light.ttf);
+}
+@font-face {
+    font-family: myFirstFont3;
+    src: url(Dosis-Regular.ttf);
+}
+@font-face {
+    font-family: myFirstFont1;
+    src: url(Cabin-Regular.ttf);
+}
+@font-face {
+    font-family: myFirstFont2;
+    src: url(Farsan-Regular.ttf);
+}
+#backimage{
+background-image: url(../images/health.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+height: 700px;
+
+
+}
+#head{
+	width: 100%;
+	height: 80px;
+	
+}
+#upper{
+	padding-top:25px;
+	width:40%;
+	margin-left: 40px;
+	opacity:0.2;
+	
+}
+#upper p{
+
+background-color: rgba(255,255,255,1.0);
+padding: 10px 50px;
+font-size: 30px;
+font-family: myFirstFont2;
+
+}
+p #upper1{
+	color: white;
+}
+
+
+#info{
+	width:100%;
+	padding-top: 320px;
+
+}
+
+#about p{
+	color: black;
+	
+}
+#about1{
+	opacity: 0.8;
+	float:left;
+	width: 26%;
+	height: 200px;
+	margin-left:72px;
+	display: inline-block;
+	background-color: #3498db;
+	text-align: center;
+	font-family: myFirstFont1;
+	font-size: 20px;
+	transition:box-shadow 0.5s;
+}
+#about1:hover{
+	box-shadow: 0 3px 8px rgb(0,0,0);
+}
+#about2{
+	opacity: 0.8;
+	float:left;
+	width: 26%;
+	height: 200px;
+	margin-left:72px;
+	display:inline-block;
+	background-color: #8e44ad;
+	text-align: center;
+	font-family: myFirstFont1;
+	font-size: 20px;
+	transition:box-shadow 0.5s;
+}
+#about2:hover{
+	box-shadow: 0 3px 8px rgb(0,0,0);
+}
+#about3{
+	opacity: 0.8;
+	float:left;
+	width: 26%;
+	height: 200px;
+	margin-left:72px;
+	display:inline-block;
+	background-color: #e74c3c;
+	text-align: center;
+	font-family: myFirstFont1;
+	font-size: 20px;
+	transition:box-shadow 0.5s;
+}
+#about3:hover{
+	box-shadow: 0 3px 8px rgb(0,0,0);
+}
+#bottom{
+	width: 100%;
+	height: 400px;
+	background-color: black;
+	margin-top: 20px;
+}
+
+#parti1, #parti2, #parti3{
+	width: 24%;
+	float: left;
+	background-color: white;
+	height: 90%;
+	margin-top: 20px;
+	margin-left: 90px;
+	
+
+}
+#part1{
+	background-color: white;
+}
+#part1{
+	background-color: white;
+}
+#part1{
+	background-color: white;
+}
+#child{
+	text-align: center;
+  padding: 10px 20px;
+  font-family: Arial;
+}
+#women{
+	text-align: center;
+  padding: 10px 20px;
+  font-family: Arial;
+}
+#man{
+	text-align: center;
+  padding: 10px 20px;
+  font-family: Arial;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+     margin-bottom: -10px;
+}
+
+li {
+    float: left;
+    font-family: myFirstFont;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    
+     transition: background-color 0.8s;
+
+}
+
+li a:hover:not(.icon) {
+    background-color: #111;
+}
+
+.icon{
+    background-color: #0080FF;
+    font-size: 20px;
+    font-family: myFirstFont3;
+}
+.SearchDoctor{
+	font-size: 18px;
+
+}
+.TakeAppointment{
+    font-size: 18px;
+	
+}
+
+
