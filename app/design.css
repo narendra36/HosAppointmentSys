@@ -67,7 +67,7 @@ p #upper1{
 	background-color: #3498db;
 	text-align: center;
 	font-family: myFirstFont1;
-	font-size: 20px;
+	font-size: 19px;
 	transition:box-shadow 0.5s;
 }
 #about1:hover{
@@ -83,7 +83,7 @@ p #upper1{
 	background-color: #8e44ad;
 	text-align: center;
 	font-family: myFirstFont1;
-	font-size: 20px;
+	font-size: 19px;
 	transition:box-shadow 0.5s;
 }
 #about2:hover{
@@ -99,7 +99,7 @@ p #upper1{
 	background-color: #e74c3c;
 	text-align: center;
 	font-family: myFirstFont1;
-	font-size: 20px;
+	font-size: 19px;
 	transition:box-shadow 0.5s;
 }
 #about3:hover{
@@ -110,6 +110,14 @@ p #upper1{
 	height: 400px;
 	background-color: black;
 	margin-top: 20px;
+}
+#bottom1{
+	width: 100%;
+	background-color: black;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Arial;
 }
 
 #parti1, #parti2, #parti3{
@@ -135,16 +143,23 @@ p #upper1{
 	text-align: center;
   padding: 10px 20px;
   font-family: Arial;
+  background-color: #3498db;  
+  opacity: .9;
+
 }
 #women{
 	text-align: center;
   padding: 10px 20px;
   font-family: Arial;
+  background-color:#8e44ad ;
+  opacity: .9;
 }
 #man{
 	text-align: center;
   padding: 10px 20px;
   font-family: Arial;
+  background-color: #e74c3c;
+  opacity: .9;
 }
 
 
@@ -191,5 +206,4 @@ li a:hover:not(.icon) {
     font-size: 18px;
 	
 }
-
 
