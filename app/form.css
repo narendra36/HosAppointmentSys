@@ -1,0 +1,248 @@
+@font-face {
+	font-family: myfirst;
+	src: url(Dosis-Regular.ttf);
+}
+@font-face {
+	font-family: myfirst1;
+	src: url(Cabin-Regular.ttf);
+}
+body{
+	height: 750px;
+	background: linear-gradient(black,white);
+}
+
+#form{
+	left: 0px;
+	margin-top:30px; 
+	width: 1250px;
+	height: 600px;
+}
+
+#formL{
+	margin-top: 8px;
+	width: 620px;
+	background-color: #b8b8b8;
+	border: 2px solid white;
+	border-radius: 8px;
+	
+}
+
+span{
+	font-family: myfirst;
+	width: 350px;
+	color: black;
+	font-size: 30px;
+	left: 270px;
+}
+
+#signin{
+	position: relative;
+	left: 800px;
+}
+
+#formlLeftAside{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 280px;
+	
+	padding: 5px;
+}
+
+#formlRightAside{
+	position: relative;
+	float: right;
+	width: 500px;
+	height: 280px;
+	
+	padding: 5px;
+}
+
+#lable1{
+	width: 100%;
+	position: relative;
+	top: 20px;
+	margin-bottom: 25px;
+	color: black;
+	font-family: myfirst1;
+	left: 20px;
+}
+
+
+#ll{
+	float: left;
+	padding-top: 15px;
+	width: 250px;
+	height: 300px;
+}
+
+#lr{
+	float: right;
+	padding-top: 15px; 
+	width: 250px;
+	left: 250px;
+	height: 300px;
+}
+
+#inputL,#inputLR{
+	margin-bottom: 22px;
+
+}
+
+#b1{
+	position: relative;
+	margin-top: 120px;
+	width: 280px;
+	height: 40px;
+	background-color: #b1b1b1;
+	margin-left: 15px;
+	cursor: pointer;
+	margin-bottom: 80px;
+	transition-property: color;
+	transition-property: background;
+	transition-property: box-shadow;
+	transition-duration: 0.5s;
+	
+}
+
+#b2{
+	position: relative;
+	width: 280px;
+	margin-top: 120px;
+	height: 40px;
+	margin-bottom: 80px;
+	background-color: #b1b1b1;
+	margin-left: 20px;
+	cursor: pointer;
+	transition-property: color;
+	transition-property: background;
+	transition-property: box-shadow;
+	transition-duration: 0.5s;
+	
+}
+
+#b1:hover {
+	font-size: 12px;
+	box-shadow: 2px 2px 2px #0d0d0d;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+
+}
+
+#b2:hover {
+	font-size: 12px;
+	box-shadow: 2px 2px 2px #0d0d0d;
+	color: white;
+	border-radius: 5px;
+	background-color: black;
+}
+
+#formR{
+	width: 620px;
+	height: 380px;
+	float: right;
+	border: 2px solid white;
+	border-radius: 8px;
+	box-shadow: 5px 5px 2px #d0d0d0;
+}
+
+#formRLeftAside{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 280px;
+	
+	padding: 5px;
+}
+
+#lable2{
+	width: 100%;
+	position: relative;
+	top: 20px;
+	margin-bottom: 30px;
+	color: white;
+	left: 20px;
+}
+
+#formRRightAside{
+	position: relative;
+	float: right;
+	width: 400px;
+	left: 80px;
+	height: 280px;
+}
+
+#inputR{
+	padding-top: 20px;
+}
+
+#b3{
+	position: relative;
+	margin-top: 10px;
+	right: 40px;
+	width: 280px;
+	height: 40px;
+	cursor: pointer;
+	transition-property: color;
+	transition-property: background;
+	transition-property: box-shadow;
+	transition-duration: 0.5s;
+}
+
+#b3:hover {
+	font-size: 20px;
+	box-shadow: 10px 10px 5px #0d0d0d;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+}
+
+#captcha{
+	position: relative;
+	left: 185px;
+	bottom: 150px;
+}
+
+#random{
+	position: relative;
+	left: 250px;
+	bottom: 170px;
+
+}
+
+#randomfield{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	text-shadow: 8px 8px 2px black;
+	font-size: 20px;
+	background-image: url("images.jpeg");
+	box-shadow: 5px 5px 10px black;
+	border-radius: 10px;
+}
+
+#b4{
+	position: relative;
+	bottom: 235px;
+	left: 380px;
+	width: 30px;
+	height: 30px;
+	background-image:url('index.png'); 
+	background-size: 26px;
+	border-radius: 40px;
+}
+
+@media screen and (max-width:1200px){
+	#form{
+		width: 625px;
+	}
+
+	#formL{
+		width: 50%;
+	}
+	#formR{
+		width: 50%;
+	}
+} 
