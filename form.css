@@ -1,0 +1,236 @@
+body{
+	height: 600px;
+	background: linear-gradient(black,white);
+}
+
+#form{
+	position: absolute;
+	left: 0px;
+	width: 1250px;
+	height: 600px;
+}
+
+#formL{
+	float: left;
+	width: 620px;
+	height: 540px;
+	border: 2px solid white;
+	border-radius: 8px;
+	box-shadow: 5px 5px 2px #d0d0d0;
+	
+}
+
+span{
+	position: relative;
+	width: 350px;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 30px;
+	left: 270px;
+}
+
+#signin{
+	position: relative;
+	left: 800px;
+}
+
+#formlLeftAside{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 280px;
+	
+	padding: 5px;
+}
+
+#formlRightAside{
+	position: relative;
+	float: right;
+	width: 500px;
+	height: 280px;
+	
+	padding: 5px;
+}
+
+#lable1{
+	width: 100%;
+	position: relative;
+	top: 20px;
+	margin-bottom: 25px;
+	color: white;
+	left: 20px;
+}
+
+
+#ll{
+	float: left;
+	padding-top: 15px;
+	width: 250px;
+	height: 300px;
+}
+
+#lr{
+	float: right;
+	padding-top: 15px; 
+	width: 250px;
+	left: 250px;
+	height: 300px;
+}
+
+#inputL,#inputLR{
+	margin-bottom: 15px;
+}
+
+#b1{
+	position: relative;
+	margin-top: 100px;
+	width: 280px;
+	height: 40px;
+	margin-left: 25px;
+	cursor: pointer;
+	transition-property: color;
+	transition-property: background;
+	transition-property: box-shadow;
+	transition-duration: 0.5s;
+	
+}
+
+#b2{
+	position: relative;
+	width: 280px;
+	margin-top: 100px;
+	height: 40px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition-property: color;
+	transition-property: background;
+	transition-property: box-shadow;
+	transition-duration: 0.5s;
+	
+}
+
+#b1:hover {
+	font-size: 20px;
+	box-shadow: 10px 10px 5px #0d0d0d;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+
+}
+
+#b2:hover {
+	font-size: 20px;
+	box-shadow: 10px 10px 5px #0d0d0d;
+	color: white;
+	border-radius: 5px;
+	background-color: black;
+}
+
+#formR{
+	width: 620px;
+	height: 380px;
+	float: right;
+	border: 2px solid white;
+	border-radius: 8px;
+	box-shadow: 5px 5px 2px #d0d0d0;
+}
+
+#formRLeftAside{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 280px;
+	
+	padding: 5px;
+}
+
+#lable2{
+	width: 100%;
+	position: relative;
+	top: 20px;
+	margin-bottom: 30px;
+	color: white;
+	left: 20px;
+}
+
+#formRRightAside{
+	position: relative;
+	float: right;
+	width: 400px;
+	left: 80px;
+	height: 280px;
+}
+
+#inputR{
+	padding-top: 20px;
+}
+
+#b3{
+	position: relative;
+	margin-top: 10px;
+	right: 40px;
+	width: 280px;
+	height: 40px;
+	cursor: pointer;
+	transition-property: color;
+	transition-property: background;
+	transition-property: box-shadow;
+	transition-duration: 0.5s;
+}
+
+#b3:hover {
+	font-size: 20px;
+	box-shadow: 10px 10px 5px #0d0d0d;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+}
+
+#captcha{
+	position: relative;
+	left: 185px;
+	bottom: 150px;
+}
+
+#random{
+	position: relative;
+	left: 250px;
+	bottom: 170px;
+
+}
+
+#randomfield{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	text-shadow: 8px 8px 2px black;
+	font-size: 20px;
+	background-image: url("images.jpeg");
+	box-shadow: 5px 5px 10px black;
+	border-radius: 10px;
+}
+
+#b4{
+	position: relative;
+	bottom: 235px;
+	left: 380px;
+	width: 30px;
+	height: 30px;
+	background-image:url('index.png'); 
+	background-size: 26px;
+	border-radius: 40px;
+}
+
+@media screen and (max-width:1200px){
+	#form{
+		width: 625px;
+	}
+
+	#formL{
+		width: 50%;
+	}
+	#formR{
+		width: 50%;
+	}
+} 
