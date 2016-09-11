@@ -22,7 +22,7 @@
 	
 	<div id="formL">
 		<div style="margin-top:15px;"><span>Register</span></div>
-		<form action="registerslip.html" method="POST">
+		<form action="signUp.php" method="POST">
 			<div id="formlLeftAside">
 				<div id="lable1">Name</div>
 				<div id="lable1">Sex</div>
@@ -36,29 +36,29 @@
 			<div id=formlRightAside>
 				<div id="ll">
 					<div id="inputL">
-						<input type="text" name="fname" placeholder="Name" required="required">
+						<input type="text" name="tbName" placeholder="Name" required="required">
 					</div>	
 					<div id="inputL">
-						<select required name="Sex">
-							<option selected value="">Sex</option>
+						<select required name="tbSex">
+							<option selected value="">---Select---</option>
 							<option value="M">MALE</option>
 							<option value="F">FEMALE</option>
 							<option value="O">OTHER</option>
 						</select>
 					</div>
 					<div id="inputL">
-						<input type="number" name="age" required="required" placeholder="Age">
+						<input type="number" name="tbAge" required="required" placeholder="Age">
 					</div>
 					<div id="inputL">
-						<input type="number" name="mobile" required="required" placeholder="Mobile Number">
+						<input type="number" name="tbMobile" required="required" placeholder="Mobile Number">
 					</div>
 
 					<div id="inputL">
-						<input type="email" name="email" placeholder="Email">
+						<input type="email" name="tbEmail" placeholder="Email">
 					</div>
 					<div id="inputL">
-						<select required name="dept">
-							<option selected value="">Department</option>
+						<select required name="tbDept">
+							<option selected value="">---Select---</option>
 							<option value="cardiology">Cardiology</option>
 							<option value="dentist">Dentist</option>
 							<option value="neurology">Neurology</option>
@@ -68,7 +68,7 @@
 					</div>
 
 					<div id="inputL">
-						<textarea rows="4" cols="50" placeholder="Description of Problem"></textarea>
+						<textarea rows="4" cols="50" name="tbDescription" placeholder="Description of Problem"></textarea>
 					</div>
 					
 				</div>
@@ -77,7 +77,7 @@
 				
 			</div>
 			<button id="b1" type="submit"> <b>Register</b> </button>
-			<button id="b2" type="reset" > <b>Reset </b></button>		
+			<button id="b2" type="reset"> <b>Reset </b></button>		
 		</form>
 	</div>
 
