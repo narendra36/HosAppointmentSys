@@ -10,6 +10,6 @@
 			header("Location: /app/adminDashboard.html");
 		}
 		else
-			echo "You are not admin !";
+			echo "Username or Passwrod is wrong !";
 	}
 ?>

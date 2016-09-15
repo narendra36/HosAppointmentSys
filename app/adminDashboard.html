@@ -28,14 +28,7 @@
 	}
 	.btn{
 		margin-top: 30px;
-	}
-	@font-face {
-		font-family: myfirst;
-		src: url(Dosis-Regular.ttf);
-	}
-	@font-face {
-		font-family: myfirst1;
-		src: url(Cabin-Regular.ttf);
+		float: left;
 	}
 	form {
     border: 3px solid #f1f1f1;
@@ -79,6 +72,7 @@
 	}
 	.textcolor{
 	font-family: myfirst1;
+	color: white;
 	}
 	span.psw {
     float: right;
@@ -98,15 +92,31 @@
 		<li><a class="icon" href="hospital.html">HOSPITAL APPOINTMENT SYSTEM</a></li> 
 		<li><a class="SearchDoctor" href="SearchDoctor.html">Search Doctor</a></li>
 		<li><a class="TakeAppointment" href="takeAppointment.html">Take Appointment</a></li>
-		<li><a class="TakeAppointment" href="adminPanel.html">Admin Panel</a></li>
 		<li style="float:right; margin-right:15px; padding-top:5px;" ><img src="../images/medicallogo.png" height="60px" width="70px"></li>
 	</ul>
 </div>
 <div class="btn">
-	<div class="adminbutton" ><a  href="adminDashboard.html"><p style="color:white">ADD DOCTOR</p></a></div> 
-	<div class="adminbutton"><a href="#"><p style="color:white">List of Doctors</p></a></div>
-	<div class="adminbutton" ><a href="#"><p style="color:white">List of Patient</p></a></div>
+	<div class="adminbutton" ><a href="adminDashboard.html" ><p style="color:white">ADD DOCTOR</p></a></div> 
+	<div class="adminbutton"><a href="doctorList.php"><p style="color:white">List of Doctors</p></a></div>
+	<div class="adminbutton" ><a href="patientList.php"><p style="color:white">List of Patient</p></a></div>
 	<div class="adminbutton"><a  href="adminPanel.html"><p style="color:white">Logout</p></a></div>
+</div>
+<div style="margin-left:30%;">
+<form action="addDr.php" method="POST">
+  <div class="container"> 
+    <label class="textcolor"><b>ID</b></label>
+    <input type="text" placeholder="Enter ID" name="id" required style="margin-bottom: 7px;margin-top: 7px;">
+	<label class="textcolor"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="drname" required style="margin-bottom: 7px;margin-top: 7px;">
+    <label class="textcolor"><b>Department</b></label>
+    <input type="text" placeholder="Enter Department" name="drdept" required style="margin-bottom: 7px;margin-top: 7px;">
+    <label class="textcolor"><b>Contact</b></label><br>
+    <input type="number" placeholder="Enter contact" name="drcontact" required style="margin-bottom: 7px;margin-top: 7px;"><br> 
+    <label class="textcolor"><b>Cabin</b></label>
+    <input type="text" placeholder="Enter Cabin" name="drcabin" required style="margin-bottom: 5px;margin-top: 10px;">               
+    <button type="submit" style="margin-bottom: 5px;margin-top: 30px;">ADD</button>
+  </div>
+</form>
 </div>
 </body>
 </html>
