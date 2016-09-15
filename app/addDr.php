@@ -18,7 +18,7 @@
 
 		if($conn->query($sql) === TRUE)
 		{
-			 echo "<script type='text/javascript'>alert('Doctor added successfully!');window.location.href='adminDashboard.html';</script>";
+			 echo "<script type='text/javascript'>alert('Doctor added successfully!');window.location.href='adminDashboard.php';</script>";
 			// header("Location: /app/adminDashboard.html");
 
 		}

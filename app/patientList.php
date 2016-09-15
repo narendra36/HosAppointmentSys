@@ -39,9 +39,9 @@
 	<div class="head">
 		<ul>
 			<li><a class="icon" href="hospital.html">HOSPITAL APPOINTMENT SYSTEM</a></li> 
-			<li><a class="SearchDoctor" href="SearchDoctor.html">Search Doctor</a></li>
+			<li><a class="SearchDoctor" href="doctorList.php">Search Doctor</a></li>
 			<li><a class="TakeAppointment" href="takeAppointment.html">Take Appointment</a></li>
-			<li><a class="TakeAppointment" href="adminDashboard.html">Admin Panel</a></li>
+			<li><a class="TakeAppointment" href="adminPanel.html">Admin Panel</a></li>
 			<li style="float:right; margin-right:15px; padding-top:5px;" ><img src="../images/medicallogo.png" height="60px" width="70px"></li>
 		</ul>
 	</div>
@@ -67,11 +67,11 @@
 	<?php		    
 		while($row = $result->fetch_assoc()) {
 
-	?>
+	?>		
 			<tr><td><?php echo $row["p_id"]."" ?></td><td><?php echo $row["name"]."" ?></td><td><?php echo $row["age"]."" ?></td>
 			<td><?php echo $row["email"]."" ?></td><td><?php echo $row["contact"]."" ?></td><td><?php echo $row["field"]."" ?></td>
 			<td><?php echo $row["sex"]."" ?></td><td><?php echo $row["dt"]."" ?></td><td><?php echo $row["description"]."" ?></td></tr>
-	<?php		        
+	<?php	        
 		}
 	?>
 		</table></center>    
