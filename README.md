@@ -1,7 +1,8 @@
 # HosAppointmentSys
 Hospital Appointment System
 
-An OpenSource Smart Appointment system developed on LAMP Stack. Feel Free to contribute.
+An OpenSource Smart Appointment system developed on LAMP Stack for devpost openshift hackathon.
+Feel Free to contribute.
 
 #Exporting the database:
 
@@ -12,3 +13,4 @@ An OpenSource Smart Appointment system developed on LAMP Stack. Feel Free to con
     $ mysql -u username -p[pass] HosAppointmentSys < has.sql     
     
     Note: Create a database named **HosAppointmentSys** before running above command
+
